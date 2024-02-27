@@ -47,7 +47,7 @@ import {
     <div className="container my-3" >
     <Routes>
         <Route path="/" element={<TextForm showAlert={showAlert} heading="Enter Your Heading Below" mode={mode}/>} /> 
-        <Route path="about/" element={<About />} />
+        <Route path="about/" element={<About  mode={mode}/>} />
     </Routes>
     </div>
     </BrowserRouter>
